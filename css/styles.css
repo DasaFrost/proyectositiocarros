@@ -1,0 +1,71 @@
+body{
+    background-image: url('../img/fondocarros.png');
+    background-size: cover;
+}
+header{
+    text-align: center;
+}
+.custom-nav .nav-link {
+    font-size: 20px;
+    color: white;
+}
+.custom-nav .nav-link.active,
+.custom-nav .nav-link:focus {
+    background-color: transparent;
+    color: black;
+}
+.custom-nav .nav-link:hover {
+    background-color: transparent;
+    color: rgb(45, 174, 221);
+}
+
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel {
+    width: 60%;
+    margin: 0 auto;
+}
+.welcome-text {
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    margin: 10px 0;
+    color: white;
+}
+
+.container {
+    max-width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+footer{
+    background-color: grey;
+    padding: 20px;
+    text-align: center;
+    text-decoration-color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.footer-icons a{
+    text-decoration: none;
+}
+.footer-icons a img{
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3 s;
+}
+.footer-icons a img:hover{
+    transform: scale(1.2);
+}
+.form-container{
+    color: white;
+}
